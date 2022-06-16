@@ -1,0 +1,24 @@
+#main_div {
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'sign sign sign sign'
+    'main main main side'
+    'main main main side'
+    'main main main side'
+    'main main main side';
+    height: 80vh;
+    width: 40vw;
+}
+#result {
+    grid-area: header;
+    background: black;
+    color: white;
+}
+#sum {
+    grid-area: side;
+    background-color: rgb(242, 163, 18);
+}
+.keys {
+    font-size: 35px;
+}
